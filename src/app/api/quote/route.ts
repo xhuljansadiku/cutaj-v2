@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server'
+﻿import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 
 const schema = z.object({
@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
 
       await resend.emails.send({
         from: 'noreply@cutajconstruction.co.uk',
-        to: 'hello@cutajconstruction.co.uk',
+        to: 'info@cutajconstruction.co.uk',
         subject: `New Quote Request — ${data.service}`,
         html: `<p>Name: ${data.name}</p><p>Phone: ${data.phone}</p>...`
       })

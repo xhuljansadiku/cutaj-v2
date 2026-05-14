@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { services } from '@/lib/services'
+import { getResidentialServices } from '@/lib/services'
 import ServiceCard from '@/components/ui/ServiceCard'
 import SectionLabel from '@/components/ui/SectionLabel'
 import Button from '@/components/ui/Button'
@@ -13,6 +13,8 @@ export const metadata: Metadata = {
     'Premium renovation services across London. Kitchen renovations, bathroom renovations, full home refurbishments and extensions. Fixed price quotes, fully insured.',
   alternates: { canonical: 'https://cutajconstruction.co.uk/renovations' },
 }
+
+const residentialServices = getResidentialServices()
 
 export default function RenovationsPage() {
   return (
@@ -55,12 +57,12 @@ export default function RenovationsPage() {
       <section className="section-py bg-[var(--color-off-white)]">
         <div className="section-px">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-            {services.slice(0, 3).map((service) => (
+            {residentialServices.slice(0, 3).map((service) => (
               <ServiceCard key={service.slug} service={service} />
             ))}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {services.slice(3).map((service) => (
+            {residentialServices.slice(3).map((service) => (
               <ServiceCard key={service.slug} service={service} />
             ))}
           </div>

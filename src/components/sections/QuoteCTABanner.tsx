@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { motion } from 'framer-motion'
 import { Phone } from 'lucide-react'
@@ -39,7 +39,7 @@ export default function QuoteCTABanner() {
             </motion.p>
 
             <motion.a
-              href="tel:02012345678"
+              href="tel:07956299610"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -51,7 +51,7 @@ export default function QuoteCTABanner() {
               </div>
               <div>
                 <div className="text-xs text-white/40 uppercase tracking-[0.1em]">Or call directly</div>
-                <div className="text-lg font-semibold">020 1234 5678</div>
+                <div className="text-lg font-semibold">07956 299 610</div>
               </div>
             </motion.a>
           </div>

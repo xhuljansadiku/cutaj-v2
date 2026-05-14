@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
@@ -53,7 +53,7 @@ export default function QuoteForm({ dark = false, compact = false, className }: 
       if (!res.ok) throw new Error('Failed to send')
       setSubmitted(true)
     } catch {
-      setError('Something went wrong. Please call us directly on 020 1234 5678.')
+      setError('Something went wrong. Please call us directly on 07956 299 610.')
     }
   }
 

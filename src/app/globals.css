@@ -2,21 +2,22 @@
 
 @theme {
   /* ── Colors ── */
-  --color-primary:      #1A1A1A;
-  --color-cream:        #F5F0E8;
-  --color-cream-light:  #FAF7F2;
-  --color-gold:         #C9A96E;
-  --color-gold-light:   #DFC49A;
+  --color-primary:      #111111;
+  --color-primary-2:    #222222;
+  --color-cream:        #F2F2F2;
+  --color-cream-light:  #F8F8F8;
+  --color-gold:         #C9A24E;
+  --color-gold-light:   #DFC07A;
   --color-gold-dark:    #A8843E;
   --color-neutral-600:  #6B6B6B;
-  --color-neutral-200:  #E8E4DD;
-  --color-neutral-100:  #F0EDE8;
-  --color-off-white:    #FAFAF8;
+  --color-neutral-200:  #E0E0E0;
+  --color-neutral-100:  #EFEFEF;
+  --color-off-white:    #F9F9F9;
   --color-dark:         #111111;
 
   /* ── Fonts ── */
-  --font-display:  var(--font-playfair);
-  --font-sans:     var(--font-inter);
+  --font-display:  var(--font-montserrat);
+  --font-sans:     var(--font-montserrat);
 
   /* ── Spacing ── */
   --spacing-section:    7.5rem;
@@ -136,8 +137,11 @@
   }
 
   .section-px {
-    padding-left: clamp(1.25rem, 5vw, 6rem);
-    padding-right: clamp(1.25rem, 5vw, 6rem);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(1.25rem, 5vw, 5rem);
+    padding-right: clamp(1.25rem, 5vw, 5rem);
   }
 
   /* ── Gold line divider ── */

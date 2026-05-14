@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Image from 'next/image'
 import { CheckCircle } from 'lucide-react'
 import { getServiceBySlug } from '@/lib/services'
@@ -56,8 +56,8 @@ export default function RefurbishmentsPage() {
             <Button href="/contact" size="lg" className="bg-[var(--color-gold)] hover:bg-[var(--color-gold-dark)] text-white">
               Get a Free Quote
             </Button>
-            <a href="tel:02012345678" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-md border border-white/20 transition-all duration-200 backdrop-blur-sm">
-              Call 020 1234 5678
+            <a href="tel:07956299610" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-md border border-white/20 transition-all duration-200 backdrop-blur-sm">
+              Call 07956 299 610
             </a>
           </div>
         </div>

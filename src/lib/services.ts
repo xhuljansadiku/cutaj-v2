@@ -9,6 +9,7 @@ export interface Service {
   features: string[]
   startingFrom?: string
   href: string
+  type: 'residential' | 'commercial'
 }
 
 export const services: Service[] = [
@@ -33,6 +34,7 @@ export const services: Service[] = [
     ],
     startingFrom: '£15,000',
     href: '/renovations/kitchen',
+    type: 'residential',
   },
   {
     slug: 'bathroom',
@@ -55,6 +57,7 @@ export const services: Service[] = [
     ],
     startingFrom: '£8,000',
     href: '/renovations/bathroom',
+    type: 'residential',
   },
   {
     slug: 'refurbishments',
@@ -77,6 +80,7 @@ export const services: Service[] = [
     ],
     startingFrom: '£40,000',
     href: '/renovations/refurbishments',
+    type: 'residential',
   },
   {
     slug: 'extensions',
@@ -99,6 +103,7 @@ export const services: Service[] = [
     ],
     startingFrom: '£35,000',
     href: '/renovations/extensions',
+    type: 'residential',
   },
   {
     slug: 'interior',
@@ -120,9 +125,106 @@ export const services: Service[] = [
       'Feature walls and joinery',
     ],
     href: '/renovations/interior',
+    type: 'residential',
+  },
+  {
+    slug: 'office-fit-out',
+    title: 'Office Fit-Out',
+    shortTitle: 'Office Fit-Out',
+    description:
+      'Create a workspace that reflects your brand and drives productivity. From open-plan offices to private suites — we deliver commercial fit-outs to the highest specification.',
+    longDescription:
+      'Your office is your brand made physical. We design and build commercial office spaces that combine functionality with a strong visual identity — on time and within budget.',
+    icon: 'building2',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+    features: [
+      'Full space planning & design',
+      'Partition walls & glazed offices',
+      'Raised access flooring',
+      'Suspended ceilings & lighting',
+      'Full M&E (mechanical & electrical)',
+      'IT infrastructure & data cabling',
+      'Kitchen, breakout & welfare areas',
+    ],
+    href: '/commercial/office',
+    type: 'commercial',
+  },
+  {
+    slug: 'retail-fit-out',
+    title: 'Retail Fit-Out',
+    shortTitle: 'Retail Fit-Out',
+    description:
+      'Fit-outs that convert browsers into buyers. We build retail environments that showcase your products, guide customers naturally, and leave a lasting impression.',
+    longDescription:
+      'Retail spaces need to work hard. We create environments that balance brand expression with commercial practicality — delivering on time so you can open your doors without delay.',
+    icon: 'store',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80',
+    features: [
+      'Shopfront & entrance design',
+      'Bespoke display fixtures & joinery',
+      'Flooring, wall finishes & ceilings',
+      'Feature lighting & signage',
+      'Fitting rooms & service areas',
+      'POS and till point installation',
+      'Storage and stockroom fit-out',
+    ],
+    href: '/commercial/retail',
+    type: 'commercial',
+  },
+  {
+    slug: 'hospitality-fit-out',
+    title: 'Restaurant & Hospitality',
+    shortTitle: 'Hospitality Fit-Out',
+    description:
+      'From intimate restaurants to high-volume bars and hotels — we build hospitality spaces that deliver atmosphere, durability and compliance from day one.',
+    longDescription:
+      'Hospitality fit-outs demand more: strict compliance, heavy-use materials, complex kitchen and bar installations, and a tight schedule. We have done it all.',
+    icon: 'utensils',
+    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    features: [
+      'Restaurant, bar & café fit-out',
+      'Commercial kitchen installation',
+      'Extraction & ventilation systems',
+      'Bespoke joinery & feature walls',
+      'Acoustic treatment & ceilings',
+      'Full compliance (fire, building regs)',
+      'Hotel room & reception fit-out',
+    ],
+    href: '/commercial/hospitality',
+    type: 'commercial',
+  },
+  {
+    slug: 'industrial-fit-out',
+    title: 'Warehouse & Industrial',
+    shortTitle: 'Warehouse & Industrial',
+    description:
+      'Practical, robust fit-outs for warehouses, logistics hubs and industrial units. We optimise your space for operations, safety and efficiency.',
+    longDescription:
+      'Industrial spaces require a different kind of expertise. We deliver fit-outs that are built for heavy use — maximising operational efficiency without compromising on safety or compliance.',
+    icon: 'warehouse',
+    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80',
+    features: [
+      'Mezzanine floor installation',
+      'Racking & shelving systems',
+      'Welfare & office facilities',
+      'Loading bay fit-out',
+      'Industrial flooring & line marking',
+      'LED lighting upgrades',
+      'Fire suppression & compliance',
+    ],
+    href: '/commercial/industrial',
+    type: 'commercial',
   },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {
   return services.find((s) => s.slug === slug)
+}
+
+export function getResidentialServices(): Service[] {
+  return services.filter((s) => s.type === 'residential')
+}
+
+export function getCommercialServices(): Service[] {
+  return services.filter((s) => s.type === 'commercial')
 }

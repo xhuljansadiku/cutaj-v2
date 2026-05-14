@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
@@ -48,11 +48,11 @@ export default function FinalCTA() {
               Request a Free Quote
             </Link>
             <a
-              href="tel:02012345678"
+              href="tel:07956299610"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-md border border-white/20 transition-all duration-200 backdrop-blur-sm"
             >
               <Phone className="w-4 h-4" />
-              020 1234 5678
+              07956 299 610
             </a>
           </div>
 

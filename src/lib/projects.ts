@@ -2,7 +2,7 @@ export interface Project {
   slug: string
   title: string
   location: string
-  category: 'kitchen' | 'bathroom' | 'refurbishment' | 'extension'
+  category: 'kitchen' | 'bathroom' | 'refurbishment' | 'extension' | 'commercial'
   categoryLabel: string
   year: string
   description: string
@@ -178,6 +178,63 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
     ],
     featured: false,
+  },
+  {
+    slug: 'shoreditch-office-fit-out',
+    title: 'Shoreditch Tech Office Fit-Out',
+    location: 'Shoreditch, London',
+    category: 'commercial',
+    categoryLabel: 'Office Fit-Out',
+    year: '2025',
+    description:
+      'A 4,500 sq ft Cat B office fit-out for a fast-growing tech company — open-plan desking, glazed meeting rooms, breakout zones and a full kitchen.',
+    briefDescription:
+      'A scaling tech startup needed a workspace that matched their brand and could grow with their team — delivered in under 10 weeks.',
+    challenge:
+      'The client needed to be operational before a major funding announcement. The programme was tight and the space required full M&E upgrade alongside the fit-out.',
+    result:
+      'A vibrant, flexible workspace with 120 desks, 4 glazed meeting rooms, a feature reception, full AV and IT infrastructure, and a large kitchen-diner breakout area. Handed over one day early.',
+    beforeImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+      'https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80',
+    ],
+    testimonial: {
+      text: "Cutaj delivered our entire office fit-out in 9 weeks, on budget, with zero disruption to our business. The space is exactly what we envisioned — our team loves it.",
+      author: 'Marcus L., CEO',
+      area: 'Shoreditch',
+    },
+    featured: true,
+  },
+  {
+    slug: 'mayfair-restaurant-fit-out',
+    title: 'Mayfair Restaurant Fit-Out',
+    location: 'Mayfair, London',
+    category: 'commercial',
+    categoryLabel: 'Hospitality Fit-Out',
+    year: '2024',
+    description:
+      'A full restaurant fit-out in Mayfair — 60 covers, bespoke joinery, commercial kitchen installation, acoustic ceilings and mood lighting throughout.',
+    briefDescription:
+      'A restaurateur opening their second site needed a contractor who could manage the full fit-out from shell to opening night.',
+    challenge:
+      'The unit was a raw shell with complex structural limitations. A functioning commercial kitchen, extraction and full compliance needed to be delivered alongside the front-of-house.',
+    result:
+      'A stunning 60-cover restaurant with a hand-crafted bar, bespoke booth seating, a fully compliant commercial kitchen and a private dining room. Opened on schedule.',
+    beforeImage: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80',
+      'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    ],
+    testimonial: {
+      text: "From day one Cutaj understood what we needed. They managed everything — the kitchen, the joinery, the compliance — and we opened on time. Exceptional work.",
+      author: 'Alejandro R., Owner',
+      area: 'Mayfair',
+    },
+    featured: true,
   },
 ]
 

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import SectionLabel from '@/components/ui/SectionLabel'
 import QuoteForm from '@/components/ui/QuoteForm'
@@ -8,7 +8,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema'
 export const metadata: Metadata = {
   title: 'Contact Us | Get a Free Renovation Quote | Cutaj London',
   description:
-    "Contact Cutaj for a free renovation quote. We cover all London boroughs. Call 020 1234 5678 or fill in our form — we respond within 24 hours.",
+    "Contact Cutaj for a free renovation quote. We cover all London boroughs. Call 07956 299 610 or fill in our form — we respond within 24 hours.",
   alternates: { canonical: 'https://cutajconstruction.co.uk/contact' },
 }
 
@@ -16,15 +16,15 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '020 1234 5678',
-    href: 'tel:02012345678',
+    value: '07956 299 610',
+    href: 'tel:07956299610',
     desc: 'Mon–Sat, 8am–6pm',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@cutajconstruction.co.uk',
-    href: 'mailto:hello@cutajconstruction.co.uk',
+    value: 'info@cutajconstruction.co.uk',
+    href: 'mailto:info@cutajconstruction.co.uk',
     desc: 'We reply within 24 hours',
   },
   {

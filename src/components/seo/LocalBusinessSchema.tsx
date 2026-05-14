@@ -1,4 +1,4 @@
-export default function LocalBusinessSchema() {
+﻿export default function LocalBusinessSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
@@ -7,7 +7,7 @@ export default function LocalBusinessSchema() {
       "London's trusted renovation specialists. Expert kitchen, bathroom & full home refurbishments across London & the UK.",
     url: 'https://cutajconstruction.co.uk',
     telephone: '+442012345678',
-    email: 'hello@cutajconstruction.co.uk',
+    email: 'info@cutajconstruction.co.uk',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'London',

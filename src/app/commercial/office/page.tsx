@@ -11,23 +11,23 @@ import FAQ from '@/components/sections/FAQ'
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Bathroom Renovations London | Luxury Bathroom Refurbishment | Cutaj',
+  title: 'Office Fit-Out London | Commercial Office Refurbishment | Cutaj',
   description:
-    'Transform your bathroom with London\'s trusted renovation specialists. Walk-in showers, freestanding baths, wet rooms. Fixed price quotes, fully insured.',
-  alternates: { canonical: 'https://cutajconstruction.co.uk/renovations/bathroom' },
+    'Expert office fit-out contractors in London. Cat A and Cat B office fit-outs, refurbishments and reconfigurations. Fixed price, fully managed, delivered on time.',
+  alternates: { canonical: 'https://cutajconstruction.co.uk/commercial/office' },
 }
 
-const service = getServiceBySlug('bathroom')!
-const projects = getProjectsByCategory('bathroom')
+const service = getServiceBySlug('office-fit-out')!
+const projects = getProjectsByCategory('commercial')
 
-export default function BathroomRenovationsPage() {
+export default function OfficeFitOutPage() {
   return (
     <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', href: '/' },
-          { name: 'Renovation Services', href: '/renovations' },
-          { name: 'Bathroom Renovations', href: '/renovations/bathroom' },
+          { name: 'Commercial Fit-Out', href: '/commercial' },
+          { name: 'Office Fit-Out', href: '/commercial/office' },
         ]}
       />
 
@@ -36,7 +36,7 @@ export default function BathroomRenovationsPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src={service.image}
-            alt="Bathroom renovation London by Cutaj"
+            alt="Office fit-out London by Cutaj"
             fill
             className="object-cover"
             sizes="100vw"
@@ -45,13 +45,13 @@ export default function BathroomRenovationsPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#111111]/90 via-[#111111]/60 to-transparent" />
         </div>
         <div className="relative z-10 section-px">
-          <SectionLabel light>Renovation Services</SectionLabel>
+          <SectionLabel light>Commercial Fit-Out</SectionLabel>
           <h1 className="text-display font-display font-bold text-white mb-4 max-w-2xl">
-            Bathroom Renovations London
+            Office Fit-Out London
           </h1>
           <p className="text-white/75 text-lg max-w-xl mb-8">
-            From en-suite refreshes to full spa bathroom transformations. We handle everything —
-            plumbing, tiling, fixtures and finishes — to a flawless standard.
+            Create a workspace that reflects your brand and drives productivity. From open-plan
+            offices to private suites — delivered on time and on budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button href="/contact" size="lg" className="bg-[var(--color-gold)] hover:bg-[var(--color-gold-dark)] text-white">
@@ -74,11 +74,11 @@ export default function BathroomRenovationsPage() {
             <div>
               <SectionLabel>What&apos;s Included</SectionLabel>
               <h2 className="text-heading font-display font-bold text-[var(--color-primary)] mb-4">
-                Your Personal Spa. In Your Own Home.
+                Full Office Fit-Out, Managed End-to-End.
               </h2>
               <p className="text-[var(--color-neutral-600)] mb-8">
-                A beautifully renovated bathroom adds both joy and value to your home. We design
-                and build bathrooms that exceed expectations — every single time.
+                We manage the entire fit-out from design and planning through to handover —
+                so your team can focus on your business while we build your space.
               </p>
               <ul className="space-y-3">
                 {service.features.map((f) => (
@@ -88,18 +88,11 @@ export default function BathroomRenovationsPage() {
                   </li>
                 ))}
               </ul>
-              {service.startingFrom && (
-                <div className="mt-6 inline-block bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/20 rounded-lg px-5 py-3">
-                  <div className="text-xs text-[var(--color-neutral-600)] uppercase tracking-[0.1em]">Starting from</div>
-                  <div className="text-2xl font-display font-bold text-[var(--color-primary)]">{service.startingFrom}</div>
-                  <div className="text-xs text-[var(--color-neutral-600)]">Fully fitted. Fixed price.</div>
-                </div>
-              )}
             </div>
             <div className="relative aspect-[4/3] rounded-[var(--radius-card)] overflow-hidden shadow-[var(--shadow-card-hover)]">
               <Image
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
-                alt="Luxury bathroom renovation detail"
+                src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80"
+                alt="Office fit-out detail"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -113,9 +106,9 @@ export default function BathroomRenovationsPage() {
       {projects.length > 0 && (
         <section className="section-py bg-[var(--color-off-white)]">
           <div className="section-px">
-            <SectionLabel>Our Bathroom Projects</SectionLabel>
+            <SectionLabel>Our Commercial Projects</SectionLabel>
             <h2 className="text-heading font-display font-bold text-[var(--color-primary)] mb-10">
-              Recent Bathroom Renovations
+              Recent Commercial Fit-Outs
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.map((project) => (
@@ -131,9 +124,11 @@ export default function BathroomRenovationsPage() {
         <div className="section-px">
           <div className="max-w-xl mx-auto text-center mb-10">
             <h2 className="text-heading font-display font-bold text-white mb-3">
-              Get a Free Bathroom Renovation Quote
+              Get a Free Office Fit-Out Quote
             </h2>
-            <p className="text-white/60">We respond within 24 hours.</p>
+            <p className="text-white/60">
+              Tell us about your space and we&apos;ll get back to you within 24 hours.
+            </p>
           </div>
           <div className="max-w-xl mx-auto">
             <QuoteForm dark />
