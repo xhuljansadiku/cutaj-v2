@@ -167,8 +167,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 <Button href="/contact" fullWidth className="bg-[var(--color-gold)] hover:bg-[var(--color-gold-dark)] text-white">
                   Get a Free Quote
                 </Button>
-                <a href="tel:02012345678" className="block mt-3 text-sm text-white/50 hover:text-white/80 transition-colors">
-                  Or call 020 1234 5678
+                <a href="tel:02030515418" className="block mt-3 text-sm text-white/50 hover:text-white/80 transition-colors">
+                  Or call 020 3051 5418
                 </a>
               </div>
 

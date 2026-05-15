@@ -63,11 +63,11 @@ export default function Hero() {
               Get a Free Quote →
             </Link>
             <a
-              href="tel:07956299610"
+              href="tel:07908787037"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold text-sm rounded-md border border-white/25 transition-all duration-200 uppercase tracking-wide"
             >
               <Phone className="w-4 h-4" />
-              Call 07956 299 610
+              Call 07908 787 037
             </a>
           </motion.div>
 

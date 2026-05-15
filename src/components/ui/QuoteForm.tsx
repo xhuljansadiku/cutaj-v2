@@ -53,7 +53,7 @@ export default function QuoteForm({ dark = false, compact = false, className }: 
       if (!res.ok) throw new Error('Failed to send')
       setSubmitted(true)
     } catch {
-      setError('Something went wrong. Please call us directly on 07956 299 610.')
+      setError('Something went wrong. Please call us directly on 07908 787 037.')
     }
   }
 

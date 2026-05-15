@@ -59,13 +59,13 @@ export default function Footer() {
             {/* Contact info */}
             <div className="space-y-3">
               <a
-                href="tel:07956299610"
+                href="tel:07908787037"
                 className="flex items-center gap-3 text-sm text-white/70 hover:text-[var(--color-gold)] transition-colors group"
               >
                 <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[var(--color-gold)]/10 transition-colors">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                07956 299 610
+                07908 787 037
               </a>
               <a
                 href="mailto:info@cutajconstruction.co.uk"

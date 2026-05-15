@@ -133,11 +133,11 @@ export default function Navigation() {
             {/* Desktop CTAs */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="tel:07956299610"
+                href="tel:07908787037"
                 className="flex items-center gap-2 text-sm font-semibold text-white/80 hover:text-[var(--color-gold)] transition-colors duration-200"
               >
                 <Phone className="w-4 h-4" />
-                <span>07956 299 610</span>
+                <span>07908 787 037</span>
               </a>
               <Link
                 href="/contact"
@@ -212,11 +212,11 @@ export default function Navigation() {
                   Get a Free Quote
                 </Link>
                 <a
-                  href="tel:07956299610"
+                  href="tel:07908787037"
                   className="flex items-center justify-center gap-2 w-full py-4 border-2 border-white/20 text-white font-semibold rounded-md hover:border-[var(--color-gold)] hover:text-[var(--color-gold)] transition-colors duration-200"
                 >
                   <Phone className="w-4 h-4" />
-                  07956 299 610
+                  07908 787 037
                 </a>
               </div>
             </div>

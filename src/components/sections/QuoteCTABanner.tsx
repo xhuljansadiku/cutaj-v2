@@ -39,7 +39,7 @@ export default function QuoteCTABanner() {
             </motion.p>
 
             <motion.a
-              href="tel:07956299610"
+              href="tel:07908787037"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -51,7 +51,7 @@ export default function QuoteCTABanner() {
               </div>
               <div>
                 <div className="text-xs text-white/40 uppercase tracking-[0.1em]">Or call directly</div>
-                <div className="text-lg font-semibold">07956 299 610</div>
+                <div className="text-lg font-semibold">07908 787 037</div>
               </div>
             </motion.a>
           </div>

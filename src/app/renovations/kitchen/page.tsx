@@ -63,10 +63,10 @@ export default function KitchenRenovationsPage() {
               Get a Free Quote
             </Button>
             <a
-              href="tel:07956299610"
+              href="tel:07908787037"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-md border border-white/20 transition-all duration-200 backdrop-blur-sm"
             >
-              Call 07956 299 610
+              Call 07908 787 037
             </a>
           </div>
         </div>

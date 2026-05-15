@@ -68,8 +68,8 @@ export default async function AreaPage({ params }: { params: Promise<{ area: str
             <Button href="/contact" size="lg" className="bg-[var(--color-gold)] hover:bg-[var(--color-gold-dark)] text-white">
               Get a Free Quote in {data.name}
             </Button>
-            <a href="tel:02012345678" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-md border border-white/20 transition-all duration-200">
-              Call 020 1234 5678
+            <a href="tel:02030515418" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-md border border-white/20 transition-all duration-200">
+              Call 020 3051 5418
             </a>
           </div>
         </div>
