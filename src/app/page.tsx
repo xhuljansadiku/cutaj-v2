@@ -14,7 +14,7 @@ import LocalBusinessSchema from '@/components/seo/LocalBusinessSchema'
 export const metadata: Metadata = {
   title: 'Cutaj | Premium Renovation & Refurbishment Specialists London',
   description:
-    "London's trusted renovation specialists. Expert kitchen, bathroom & full home refurbishments. Fixed price quotes, 12+ years experience, fully insured. Free consultation.",
+    "London's trusted renovation specialists. Expert kitchen, bathroom & full home refurbishments. Fixed price quotes, 22+ years experience, fully insured. Free consultation.",
   alternates: { canonical: 'https://cutajconstruction.co.uk' },
 }
 

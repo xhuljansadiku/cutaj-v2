@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Phone } from 'lucide-react'
-import { fadeUp, easeOutExpo } from '@/lib/motion'
+import { fadeUp } from '@/lib/motion'
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=1800&q=85"
+          src="/images/hero-bg.jpg"
           alt="Premium kitchen renovation by Cutaj Construction"
           fill
           priority

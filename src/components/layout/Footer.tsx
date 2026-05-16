@@ -44,11 +44,11 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-6">
               <Image
-                src="/images/cutaj-construction-logo-footer.png"
+                src="/images/logo.png"
                 alt="Cutaj Construction"
-                width={160}
-                height={64}
-                className="h-14 w-auto object-contain"
+                width={320}
+                height={128}
+                className="h-16 w-auto object-contain"
               />
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-6">

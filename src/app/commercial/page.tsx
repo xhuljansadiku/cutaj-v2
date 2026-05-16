@@ -67,8 +67,8 @@ export default function CommercialPage() {
         <div className="section-px">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { value: '12+', label: 'Years experience' },
-              { value: '200+', label: 'Commercial projects' },
+              { value: '22+', label: 'Years experience' },
+              { value: '800+', label: 'Commercial projects' },
               { value: '100%', label: 'On-time delivery' },
               { value: '£1M+', label: 'Largest fit-out' },
             ].map((stat) => (

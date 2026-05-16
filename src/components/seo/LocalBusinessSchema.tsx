@@ -6,7 +6,7 @@
     description:
       "London's trusted renovation specialists. Expert kitchen, bathroom & full home refurbishments across London & the UK.",
     url: 'https://cutajconstruction.co.uk',
-    telephone: '+442030515418',
+    telephone: ['+442030515418', '+447908787037'],
     email: 'info@cutajconstruction.co.uk',
     address: {
       '@type': 'PostalAddress',

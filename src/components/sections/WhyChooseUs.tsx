@@ -12,7 +12,7 @@ const benefits = [
   { title: 'Fixed Price Quotes', desc: 'No surprise invoices, no hidden costs. Your quote is your price — guaranteed.' },
   { title: 'Fully Insured & Verified', desc: 'Checkatrade verified, £5M+ liability cover. Every trade, fully covered.' },
   { title: 'Clean & Respectful Teams', desc: 'We treat your home with the care and respect it deserves. Always.' },
-  { title: '12+ Years of Expertise', desc: 'Over a decade of renovation experience. We have seen — and solved — everything.' },
+  { title: '22+ Years of Expertise', desc: 'Over a decade of renovation experience. We have seen — and solved — everything.' },
   { title: 'Aftercare Guarantee', desc: 'We do not walk away at handover. Snag support and aftercare included.' },
 ]
 
@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 md:right-0 lg:-right-10 bg-[var(--color-primary)] text-white p-6 rounded-[var(--radius-card)] shadow-xl w-40">
-              <div className="font-display text-4xl font-bold text-[var(--color-gold)] mb-1">200+</div>
+              <div className="font-display text-4xl font-bold text-[var(--color-gold)] mb-1">800+</div>
               <div className="text-xs text-white/70 uppercase tracking-[0.1em]">Projects<br />Completed</div>
             </div>
             <div className="absolute -top-4 -left-4 w-24 h-24 border-2 border-[var(--color-gold)]/30 rounded-[var(--radius-card)]" />

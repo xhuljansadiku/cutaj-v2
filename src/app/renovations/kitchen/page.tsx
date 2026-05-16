@@ -13,7 +13,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema'
 export const metadata: Metadata = {
   title: 'Kitchen Renovations London | Expert Kitchen Refurbishment | Cutaj',
   description:
-    "Transform your kitchen with London's trusted renovation specialists. Fixed price quotes, 12+ years experience, fully insured. Free kitchen renovation consultation.",
+    "Transform your kitchen with London's trusted renovation specialists. Fixed price quotes, 22+ years experience, fully insured. Free kitchen renovation consultation.",
   alternates: { canonical: 'https://cutajconstruction.co.uk/renovations/kitchen' },
   openGraph: {
     title: 'Kitchen Renovations London | Cutaj',

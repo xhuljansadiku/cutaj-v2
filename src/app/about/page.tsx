@@ -10,7 +10,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema'
 export const metadata: Metadata = {
   title: 'About Cutaj | London Renovation Specialists',
   description:
-    "Meet the team behind London's trusted renovation specialists. 12+ years experience, 200+ projects completed, fully insured. Honest, reliable renovation experts.",
+    "Meet the team behind London's trusted renovation specialists. 22+ years experience, 800+ projects completed, fully insured. Honest, reliable renovation experts.",
   alternates: { canonical: 'https://cutajconstruction.co.uk/about' },
 }
 
@@ -48,7 +48,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-white/75 text-lg max-w-xl">
             We started with a simple belief: renovation should be straightforward, transparent
-            and exceptional. 12 years and 200+ projects later, that belief drives everything we do.
+            and exceptional. 22 years and 800+ projects later, that belief drives everything we do.
           </p>
         </div>
       </section>
@@ -124,9 +124,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {[
               { num: '2013', label: 'Founded' },
-              { num: '200+', label: 'Projects Completed' },
+              { num: '800+', label: 'Projects Completed' },
               { num: '★ 4.9', label: 'Google Rating' },
-              { num: '12+', label: 'Years Experience' },
+              { num: '22+', label: 'Years Experience' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="font-display text-4xl font-bold text-[var(--color-gold)] mb-2">{stat.num}</div>
